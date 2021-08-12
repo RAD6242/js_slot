@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/slot.css">
+</head>
+<body>
+  <main>
+    <section id="status">
+      <div class="status_coin">
+        <div id="have_coin">HAVING : 100</div>
+        <div id="get_coin">WELCOME!!!</div>
+      </div>
+    </section>
+    <section id="main">
+      <div id="bets">
+        <ul>
+          <li class="bet3">3</li>
+          <li class="bet2">2</li>
+          <li class="bet1">1</li>
+          <li class="bet2">2</li>
+          <li class="bet3">3</li>
+        </ul>
+      </div>
+      <div id="reels">
+        <div id="reel0">
+          <div class="reel_inner">
+          </div>
+        </div>
+        <div id="reel1">
+          <div class="reel_inner">
+          </div>
+        </div>
+        <div id="reel2">
+          <div class="reel_inner">
+          </div>
+        </div>
+      </div>
+  
+      <div id="reel_check_bars">
+        <div class="check_bar_upper"></div>
+        <div class="check_bar_center"></div>
+        <div class="check_bar_bottom"></div>
+        <div class="check_bar_lurb"></div>
+        <div class="check_bar_lbru"></div>
+      </div>
+    </section>
+    <section id="btns">
+      <div id="btns_left">
+        <button id="start" class="focusBorder">START</button>
+      </div>
+      <div id="btns_right">
+        <button id="stop0" class="game_over">STOP</button>
+        <button id="stop1" class="game_over">STOP</button>
+        <button id="stop2" class="game_over">STOP</button>
+      </div>
+    </section>
+    <section id="status">
+      <div id="msg_box">HELLO! YOU HAVE 100 COINS! Push the START!</div>
+    </section>
+
+    <section id="description">
+      <p>＜ルール説明＞<br>コイン100枚からゲームスタート。毎回３枚投入します。</p>
+      <p>＜　当たり　＞<br>あたった数字ｘ10枚　「777」が揃ったら100枚GET！</p>
+      <p>＜　終　了　＞<br>手持ちコインが３枚未満になったらGAME OVERです！</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;yuta-onishi, 2021.</p>
+  </footer>
+  <script src="js/slot.js"></script>
+</body>
+</html>
